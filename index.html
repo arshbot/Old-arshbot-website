@@ -47,7 +47,12 @@
             text-decoration: none;
             font-size: 14px;
         }
-        
+        element.style {
+            position: fixed;
+            max-width: initial;
+            bottom: 0;
+            left: 0;
+        }
         .link-item:last-child{
             margin-right:0;
         }
@@ -76,7 +81,9 @@
             -->
         </div>
     </div>
-    
+    <div id="randContainer">
+        <img src="ATLSkyline.png" alt="" align = "bottom"/>
+    </div>
     <script>
         var linkItems = document.querySelectorAll(".link-item");
         var counter = 0;
